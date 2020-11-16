@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container">
+    <div class="header">
+        <span class="title">quickboard</span>
+            
+        <div class="header-buttons"><form>
+            <button class="title-button" formaction="authentication.html">sign up</button>
+            <button class="title-button" formaction="authentication.html">log in</button>
+        </form></div> <!-- header-buttons -->
+    </div> <!-- header -->
+   
+    
+    <div class="home-text-box">
+        <p class="home-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis nisi feugiat, luctus orci eget, sodales elit. Cras pharetra urna felis. Proin congue dui felis, quis commodo purus tristique nec. Mauris vulputate elit dolor. In ac varius turpis, ac varius dolor. In blandit, enim non ultricies pretium, risus lorem rhoncus diam, non aliquet diam dui a dolor. Morbi rhoncus arcu arcu, at mattis mi aliquam non. Duis sed tortor porttitor, dapibus leo vestibulum, placerat sem. Etiam aliquam justo a leo iaculis, eu malesuada enim laoreet. Morbi elit leo, pulvinar vitae nisl quis, faucibus iaculis purus.<br><br>
+        
+        What our users have made...</p>
+    </div>
+    
+    <div class="random-spotlight">
+        <div class="rs-user">
+            <img class="rs-profilepic" src="{{ url_for('static',filename='images/215_illust.png') }}"><a href="">@loey</a>
+        </div> <!-- rs-user -->
+        
+        <div class="rs-content">
+            <div class="rs-header"><span class="rs-title">playlists</span></div>
+            
+            <div class="rs-list-box">
+                <center><p class="list-title">good night</p></center>
+            
+                <ul>
+                    <li>the scientist / coldplay</li>
+                    <li>claire de lune - debussy / michael charles clark</li>
+                    <li>arurian dance / dj badu</li>
+                    <li>janet / berhana</li>
+                    <li>crying over you / honne, beka</li>
+                    <li>best part / h.e.r., daniel caesar</li>
+                    <li>feels so good / honne, anna of the north</li>
+                    <li>something about us / daft punk</li>
+                    <li>within / daft punk</li>
+                    <li>i don't know what i can save you from / kings of convenience</li>
+                    <li>cayman island / kings of convenience</li>
+                    <li>the moon song - film version / scarlet johansson, joaquin phoenix</li>
+                    <li>idontwannabeyouanymore / billie eilish</li>
+                    <li>one more light / linkin park</li>
+                    <li>ocean eyes / billie eyes</li>
+                    <li>talkin' talk / d'sound</li>
+                    <li>the story / zee avi</li>
+                    <li>1972 / josh rouse</li>
+                    <li>christmas lights / coldplay</li>
+                    <li>honey / kehlani</li>
+                </ul>
+    
+            </div> <!-- list-box -->
+            
+            <div class="rs-list-box">
+                <center><p class="list-title">summer afternoon</p></center>
+            
+                <ul>
+                    <li>mrs.cold / kings of convenience</li>
+                    <li>bohemian rhapsody - 2011 / queen</li>
+                    <li>still / ben folds</li>
+                    <li>1994 / alec benjamin</li>
+                    <li>know how / kings of convenience, feist</li>
+                    <li>violet / daniel caesar</li>
+                    <li>it runs through me / tom misch, de la soul</li>
+                </ul>
+    
+            </div> <!-- list-box -->
+            
+            <div class="rs-list-box">
+                <center><p class="list-title">4am</p></center>
+            
+                <ul>
+                    <li>starry starry night / lianne la havas</li>
+                    <li>wild country / wake owl</li>
+                    <li>truth / jeebanoff</li>
+                    <li>nothing without you / 10cm</li>
+                    <li>don't tell me it's not love / lee so ra</li>
+                    <li>six feet under / billie eilish</li>
+                    <li>adore / amy shark</li>
+                    <li>wintertime / norah jones</li>
+                    <li>blue christmas / elvis presley</li>
+                    <li>me after you / paul kim</li>
+                    <li>everglow / coldplay</li>
+                    <li>24-25 / kings of convenience</li>
+                </ul>
+    
+            </div> <!-- list-box -->
+        </div><!-- rs-content -->
+    </div> <!-- random-spotlight -->
+    
+    <div class="random-spotlight">
+        <div class="rs-user">
+            <img class="rs-profilepic" src="{{ url_for('static',filename='images/corgi.png') }}"><a href="">@corgi</a>
+        </div> <!-- rs-user -->
+        
+        <div class="rs-content">
+            <div class="rs-header" style="background-color: #5c4033"><span class="rs-title">welsh corgi</span></div>
+            
+            <div class="rs-list-box">
+                <center><p class="list-title">breeds</p></center>
+            
+                <ul>
+                    <li>pembroke welsh corgi</li>
+                    <li>cardigan welsh corgi</li>
+                </ul>
+    
+            </div> <!-- list-box -->
+        </div><!-- rs-content -->
+    </div> <!-- random-spotlight -->
+    
+    <div class="bottom-credit"><span>quickboard</span></div>
+    
+    
+</div> <!-- container -->
+{% endblock %}

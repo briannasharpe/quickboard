@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if user == current_user %}
+{% endif %}
+<div class="container">
+    <div class="jumbotron jumbotron-fluid header">
+        <div>
+            <h1 class="display-4"><i class="fas fa-user-circle"></i> {{user.username}}</h1>
+        </div>
+    </div>
+    <div class="board-grid">
+        {% for post in posts %}
+        <div class="list-box">
+            <p>
+                <center style="background-color: #62C370;">{{ post.title }}</center>
+            </p>
+
+            <p style="white-space: pre-line;">
+                {{ post.body }}
+            </p>
+        </div><!-- list box template -->
+        {% endfor %}
+    </div>
+</div> <!-- container -->
+{% endblock %}
