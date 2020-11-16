@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickBoard</title>
+    <link rel="stylesheet" href="/templates/stylesheets/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="settings-box">
+        <p class="settings-title">settings</p>
+        
+        <form id="addlist">
+        <label for="board-title">Board title:</label>
+        <input type="text" id="" name="board-title" maxlength="20" placeholder="current board title"><br><br>
+            
+        <label for="header-color">Header color:</label>
+        <input type="color" id="" name="header-color"><br><br>
+            
+        <label for="background-image">Background image:</label>
+        <input type="file" id="" name="background-image"><br><br>
+            
+        <label for="background-color">Background color:</label>
+        <input type="color" id="" name="background-color"><br><br><br>
+            
+        <label for="profile-picture">Profile picture:</label>
+        <input type="file" id="" name="profile-picture"><br><br>
+            
+        <label for="username">Username:</label>
+        <input type="text" id="" name="username" minlength="3" maxlength="20" placeholder="current username"><br><br>
+            
+        <label for="old-password">Old password:</label>
+        <input type="password" id="" name="old-password"><br>
+            
+        <label for="new-password">New password:</label>
+        <input type="password" id="" name="new-password"><br><br>
+        </form>
+
+        
+        <div class="settings-button-area"><form>
+            <button class="settings-button" id="cancel-button" formaction="">cancel</button>
+            <button class="settings-button" formaction="">save</button>
+        </form></div> <!-- settings-button-area -->
+    </div> <!-- settings-box -->
+</div> <!-- container -->
+</body>
+</html>

@@ -1,0 +1,395 @@
+body {
+    background-color: #E7DFC6;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #62C370;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
+    -webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);  
+}
+
+.title {
+    color: white;
+    font-size: 75px;
+    text-align: right;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.header-buttons {
+    margin-right: 20px;
+    list-style-type: none;
+    float: right;
+}
+
+.title-button {
+    text-decoration: none;
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    border-style: none;
+    display: block;
+    margin-bottom: 7px;
+    cursor:pointer;
+    
+    -webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+}
+
+.title-button:hover {
+	background-color: black;
+    color: white;
+}
+.title-button:active {
+	position:relative;
+	top:1px;
+}
+
+/********** HOMEPAGE **********/
+
+.home-text {
+    font-size: 20px;
+}
+
+.home-text-box {
+    background-color: white;
+    padding-top: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    
+    -webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);  
+}
+
+.bottom-credit {
+    padding: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bottom-credit span {
+    background-color: #62C370;
+    border-radius: 10px;
+    font-size: 15px;
+    color:white;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.random-spotlight {
+    margin-top: 30px;
+    width:1000px;
+    background-color: rgb(255, 255, 255,0.3);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    -webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);  
+}
+
+.rs-user {
+    display:inline-block;
+    font-size: 25px;
+}
+
+.rs-user img {
+    margin-right: 15px;
+}
+
+.rs-user a {
+    float:right;
+    line-height:1.5cm;
+    text-decoration: none;
+    color:black;
+}
+
+.rs-profilepic {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.rs-header {
+    background-color: #fbca03;
+    padding: 10px;
+    border-radius: 20px;
+    width:940px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+    -webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);  
+}
+
+.rs-title {
+    color: white;
+    font-size: 55px;
+    text-align: right;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.rs-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rs-list-box {
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+    overflow-y: auto;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 7px;
+    word-wrap: break-word;
+    
+    -webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+}
+
+.rs-list-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.rs-list-box a {
+    text-decoration: none;
+    color: black;
+}
+
+/********** BOARD PAGES **********/
+
+.board-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.list-box {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+    overflow-y: auto;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 7px;
+    word-wrap: break-word;
+    
+    -webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+}
+
+.list-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.list-box a {
+    text-decoration: none;
+    color: black;
+}
+
+.add-list {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    -webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+}
+
+.add-list a {
+    text-decoration: none;
+    font-size: 70px;
+}
+
+.add-list-button {
+	text-decoration: none;
+    background-color: #62C370;
+    padding: 12px;
+    border-radius: 10px;
+    border-style: none;
+    display: block;
+    margin-bottom: 7px;
+    cursor:pointer;
+    color: white;
+    
+    -webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+}
+.add-list-button:hover {
+	background-color: black;
+}
+.add-list-button:active {
+	position:relative;
+	top:1px;
+}
+
+/********** ADD LIST PAGE **********/
+
+.addlist-box {
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-top: 30px;
+    margin: 0 auto;
+    
+    -webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+}
+
+.addlist-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+    width: 99%;
+    margin-top: 15px;
+}
+
+.addlist-content {
+    width: 99%;
+    margin-top: 15px;
+}
+
+#save-button {
+    background-color: #62C370;
+    color: white;
+}
+
+#save-button:hover {
+    background-color: black;
+}
+
+/********** SETTINGS **********/
+
+.settings-box {
+    width: 400px;
+    height: 430px;
+    background-color: #62C370;
+    border-radius: 20px;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-top: 30px;
+    margin: 0 auto;
+    padding-left: 10px;
+    
+    -webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+}
+
+.settings-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.settings-button-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings-button {
+    text-decoration: none;
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 7px;
+    cursor: pointer;
+    
+    -webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+}
+
+.settings-button:hover {
+	background-color: black;
+    color: white;
+}
+
+.settings-button:active {
+	position:relative;
+	top:1px;
+}
+
+#cancel-button {
+    background-color: grey;
+    color: white;
+}
+
+#cancel-button:hover {
+    background-color: black;
+}
+
+
+/********** SCROLLBAR **********/
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: grey;
+}
