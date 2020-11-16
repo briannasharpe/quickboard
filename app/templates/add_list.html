@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <div class="jumbotron jumbotron-fluid header" style="display: flex; justify-content: center;">
+        <div>
+            <h2 class="display-4" style="color: white;">Create a New List</h1>
+            <hr class="my-4">
+        </div>
+    </div>
+</div>
+
+    <div class="container" style="display: flex;justify-content: center; align-items: center; height: 500px;background-color:  #62C370; margin-top: 30px; border-radius: 20px;margin-bottom: 30px;">
+        <form action="" method="post">
+            {{ form.hidden_tag() }}
+            <p style="font-size: 20px;">
+                {{ form.title.label }}<br>
+                {{ form.title(size=32) }}<br>
+                {% for error in form.title.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+                {% endfor %}
+            </p>
+            <p style="font-size: 20px;">
+                {{ form.body.label }}<br>
+                {{ form.body(cols=32, rows=4) }}<br>
+                {% for error in form.body.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+                {% endfor %}
+            </p>
+            <hr class="my-4">
+    
+            <p style="font-size: 20px;">{{ form.submit() }}</p>
+        </form>
+        
+        
+    </div> <!-- container -->
+
+
+
+{% endblock %}
